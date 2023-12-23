@@ -32,7 +32,7 @@ function loadWetherAndOutput(id){
 
 
 
-    fetch(`http://api.openweathermap.org/data/2.5/weather?id=${id}&appid=4a4efc8fb4eb815e735424664e47221b`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?id=${id}&appid=4a4efc8fb4eb815e735424664e47221b`)
     .then(function (resp) { return resp.json() })
     .then(outputData);
         
